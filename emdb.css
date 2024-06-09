@@ -16,7 +16,7 @@ body {
 }
 
 .title { 
-    font-family: Tahoma, Geneva, sans-serif;
+    font-family: Century Gothic, sans-serif;
     font-size: 28px; 
     font-weight: bold; 
     color: white; 
@@ -87,9 +87,9 @@ body {
 }
 
 .header-green {
-    font-family: Georgia, Serif;
-    font-size: 22px;
-    color: rgb(0, 224, 84);
+    font-family: Century Gothic, sans-serif;
+    font-size: 28px;
+    color: rgb(0,176, 255);
     font-weight: bold;
     padding: 8px 0;
 }
