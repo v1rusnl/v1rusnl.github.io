@@ -32,11 +32,11 @@ body {
 }
 
 .title .link-buttons.grayscale .link-button {
-    filter: grayscale(70%);
+    filter: unset;
 }
 
 .title .link-buttons.grayscale .link-button:hover {
-    filter: unset;
+	filter: grayscale(70%);
 }
 
 .title .link-buttons .link-button,
@@ -189,6 +189,8 @@ b {
     border-radius: 4px;
 }
 
+.shiny-frame:hover   {  background-color: rgba(0, 0, 0, .4); }
+
 .shiny-frame.large {
     border-radius: 6px;
 }
@@ -281,7 +283,10 @@ ul.movie-list > li.thumbnail {
 
 .thumbnail .shiny-container img {
     border-radius: 4px;
+	transition: transform 0.3s ease-in-out;
 }
+
+.thumbnail .shiny-container:hover   { transform: scale(0.9); }
 
 ul.movie-list > li.thumbnail .thumbnail-text {
     margin: 8px 0 8px;
